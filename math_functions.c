@@ -23,10 +23,11 @@ int main() {
 	printf( "Divide 6 / 2: %i \n", divide(6,2) );
 	printf( "Multiply 5 * 5: %i \n", multiply(5,5) );
 	
-	int FirstNumber = 10;
-	int SecondNumber = 4;
 	
-	int subtractNumbers = subtract(FirstNumber, SecondNumber);
+	int number1 = 0;
+	
+	printf("Enter a number:");
+	scanf("%i", number1);
 
 	
 }
